@@ -29,5 +29,6 @@ server.listen(port, function () {
 });
 
 app.get("/", function(req, res) {
+	console.log('Getting root url');
     return res.render('main');
 });
